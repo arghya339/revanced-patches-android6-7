@@ -27,7 +27,7 @@ class PatchOptions : ResourcePatch {
         internal var YouTube_AppName: String? by option(
             PatchOption.StringOption(
                 key = "YouTube_AppName",
-                default = "ReVanced Extended",
+                default = "YouTube",
                 title = "Application Name of YouTube",
                 description = "The name of the YouTube it will show on your home screen.",
                 required = true
@@ -40,7 +40,7 @@ class PatchOptions : ResourcePatch {
         internal var YouTube_PackageName: String? by option(
             PatchOption.StringOption(
                 key = "YouTube_PackageName",
-                default = "app.rvx.android.youtube",
+                default = "com.ungoogled.android.youtube",
                 title = "Package Name of YouTube",
                 description = "The package name of the YouTube. (NON-ROOT user only)",
                 required = true
