@@ -39,7 +39,7 @@ internal class JsonGenerator : PatchesFileGenerator {
             )
         }
 
-        val json = File("patches.json")
+        val json = File("build/libs/","patches.json")
         json.writeText(GsonBuilder().serializeNulls().create().toJson(patches))
     }
 
