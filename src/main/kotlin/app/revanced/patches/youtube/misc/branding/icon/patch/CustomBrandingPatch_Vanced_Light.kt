@@ -12,21 +12,21 @@ import app.revanced.shared.util.resources.IconHelper
 import app.revanced.shared.util.resources.ResourceHelper
 
 @Patch(false)
-@Name("custom-branding-icon-afn-red")
-@Description("Changes the YouTube launcher icon (Afn / Red).")
+@Name("custom-branding-icon-vanced-light")
+@Description("Changes the YouTube launcher icon (Vanced Light).")
 @DependsOn([SettingsPatch::class])
 @YouTubeCompatibility
-class CustomBrandingPatch_Red : ResourcePatch {
+class CustomBrandingPatch_Vanced_Light : ResourcePatch {
     override fun execute(context: ResourceContext) {
 
         IconHelper.customIcon(
             context,
-            "red"
+            "vanced_light"
         )
 
         ResourceHelper.iconPatchSuccess(
             context,
-            "red"
+            "vanced_light"
         )
     }
 }

@@ -11,22 +11,22 @@ import app.revanced.shared.annotation.YouTubeCompatibility
 import app.revanced.shared.util.resources.IconHelper
 import app.revanced.shared.util.resources.ResourceHelper
 
-@Patch(false)
-@Name("custom-branding-icon-afn-red")
-@Description("Changes the YouTube launcher icon (Afn / Red).")
+@Patch
+@Name("custom-branding-icon-google-family")
+@Description("Changes the YouTube launcher icon (Google Family).")
 @DependsOn([SettingsPatch::class])
 @YouTubeCompatibility
-class CustomBrandingPatch_Red : ResourcePatch {
+class CustomBrandingPatch_Google_Family : ResourcePatch {
     override fun execute(context: ResourceContext) {
 
         IconHelper.customIcon(
             context,
-            "red"
+            "google_family"
         )
 
         ResourceHelper.iconPatchSuccess(
             context,
-            "red"
+            "google_family"
         )
     }
 }
