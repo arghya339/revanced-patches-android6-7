@@ -8,7 +8,7 @@ internal object Constants {
      * microG vendor name
      * aka. package prefix / package base
      */
-    const val MICROG_VENDOR = "app.revanced"
+    const val MICROG_VENDOR = "com.mgoogle"
 
     /**
      * meta-data for microG package name spoofing on patched builds
