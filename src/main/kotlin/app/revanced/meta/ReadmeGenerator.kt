@@ -61,7 +61,7 @@ internal class ReadmeGenerator : PatchesFileGenerator {
                 }
             }
 
-        File("build/libs/","README.md").run {
+        File("README.md").run {
             writeText(
                 readText().replace(Regex("## \uD83E\uDDE9 Patches List.*?</details>", RegexOption.DOT_MATCHES_ALL), output.toString())
             )
