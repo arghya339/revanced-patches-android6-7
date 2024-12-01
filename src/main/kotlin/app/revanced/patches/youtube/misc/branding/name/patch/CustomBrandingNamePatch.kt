@@ -19,7 +19,7 @@ import app.revanced.shared.util.resources.ResourceHelper
         SettingsPatch::class
     ]
 )
-@Description("Changes the YouTube launcher name to your choice (defaults to ReVanced Extended).")
+@Description("Changes the YouTube launcher name to your choice (defaults to YouTube).")
 @YouTubeCompatibility
 class CustomBrandingNamePatch : ResourcePatch {
     override fun execute(context: ResourceContext) {
