@@ -21,7 +21,7 @@ import app.revanced.shared.util.resources.ResourceHelper
 
 @Patch
 @Name("microg-support")
-@Description("Allows YouTube ReVanced to run without root and under a different package name with GmsCore. (\"GmsCore\" is new Vanced MicroG).")
+@Description("Allows YouTube ReVanced to run without root and under a different package name with Vanced MicroG.")
 @DependsOn(
     [
         SettingsPatch::class,

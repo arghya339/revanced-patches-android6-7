@@ -43,12 +43,12 @@
     <string name="general_time_without_sb_sum">건너뛸 구간을 제외한 전체 동영상 길이를 타임스탬프에 표시합니다.</string>
     <string name="general_uuid">비공개 사용자 아이디</string>
     <string name="general_uuid_sum">비공개 사용자 아이디는 SponsorBlock 서버에서 구간을 제출하거나 건너뛴 구간 정보를 기록하는데 사용되는 고유 아이디입니다. 절대 다른 이에게 공개하지 마세요.</string>
-    <string name="microg_not_installed_notice">GmsCore를 설치해 주세요.</string>
-    <string name="microg_not_installed_warning">GmsCore가 설치되지 않았습니다.</string>
-    <string name="microg_not_running_warning">GmsCore가 백그라운드에서 실행되고 있지 않습니다.</string>
+    <string name="microg_not_installed_notice">MicroG를 설치해 주세요.</string>
+    <string name="microg_not_installed_warning">MicroG가 설치되지 않았습니다.</string>
+    <string name="microg_not_running_warning">MicroG가 백그라운드에서 실행되고 있지 않습니다.</string>
     <string name="microg_notification_settings">GsmCore 열기</string>
     <string name="microg_notification_settings_summary">알림 수신을 위한 클라우드 메시징 설정을 할 수 있습니다.</string>
-    <string name="microg_settings">GmsCore</string>
+    <string name="microg_settings">MicroG</string>
     <string name="minutes">분</string>
     <string name="new_segment_choose_category">구간 카테고리를 선택하세요</string>
     <string name="new_segment_confirm_content" formatted="false">"선택한 구간은 %02d:%02d부터 %02d:%02d까지 입니다 (%d분 %02d초).
