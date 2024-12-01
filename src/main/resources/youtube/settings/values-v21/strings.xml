@@ -5,6 +5,10 @@
     <string name="revanced_icons_default">stock</string>
     <string name="revanced_icons_red">afn / red</string>
     <string name="revanced_icons_revancify">revancify</string>
+    <string name="revanced_icons_vanced_light">vanced light</string>
+    <string name="revanced_icons_revancify_blue">revancify blue</string>
+    <string name="revanced_icons_google_family">google family</string>
+    <string name="revanced_icons_pink">pink</string>
     <string name="revanced_labels_default">stock</string>
     <string name="revanced_patches_excluded">Excluded</string>
     <string name="revanced_patches_included">Included</string>

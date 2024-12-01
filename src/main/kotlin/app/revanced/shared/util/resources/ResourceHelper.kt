@@ -289,6 +289,18 @@ internal object ResourceHelper {
             ).replace(
                 "@string/revanced_icons_revancify",
                 "@string/revanced_icons_default"
+            ).replace(
+                "@string/revanced_icons_vanced_light",
+                "@string/revanced_icons_default"
+            ).replace(
+                    "@string/revanced_icons_revancify_blue",
+                    "@string/revanced_icons_default"
+            ).replace(
+                    "@string/revanced_icons_google_family",
+                    "@string/revanced_icons_default"
+            ).replace(
+                "@string/revanced_icons_pink",
+                "@string/revanced_icons_default"
             )
             .replace(
                 "@string/revanced_icons_default",
